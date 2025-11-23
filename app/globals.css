@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-stone-950 text-stone-100;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-earth-400 to-tactical-500 bg-clip-text text-transparent;
+  }
+
+  .tactical-gradient {
+    @apply bg-gradient-to-br from-earth-900 via-tactical-950 to-stone-950;
+  }
+}
