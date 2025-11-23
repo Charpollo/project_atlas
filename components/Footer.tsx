@@ -23,12 +23,17 @@ export default function Footer() {
             <h3 className="text-stone-100 font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#how-it-works" className="text-stone-400 hover:text-earth-400 transition-colors text-sm">
+                <a href="/#how-it-works" className="text-stone-400 hover:text-earth-400 transition-colors text-sm">
                   How It Works
                 </a>
               </li>
               <li>
-                <a href="#engage" className="text-stone-400 hover:text-earth-400 transition-colors text-sm">
+                <a href="/notes" className="text-stone-400 hover:text-earth-400 transition-colors text-sm">
+                  Charles' Notes
+                </a>
+              </li>
+              <li>
+                <a href="/#engage" className="text-stone-400 hover:text-earth-400 transition-colors text-sm">
                   Deploy a Team
                 </a>
               </li>
